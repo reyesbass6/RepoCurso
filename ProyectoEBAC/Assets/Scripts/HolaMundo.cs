@@ -41,8 +41,8 @@ public class HolaMundo : MonoBehaviour
         Debug.Log("Hola desde FIXEDUPDATE cada 50 frames");
         x += 1;
 
-        Componente1.miObjeto.name = Componente1.miObjeto.name + x;
-        Debug.Log("Cada 50 frames me cambian el nombre, ahora me llamo: "+ Componente1.miObjeto.name);
+        //Componente1.miObjeto.name = Componente1.miObjeto.name + x;
+        //Debug.Log("Cada 50 frames me cambian el nombre, ahora me llamo: "+ Componente1.miObjeto.name);
     }
 
     private void LateUpdate()
